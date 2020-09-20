@@ -23,7 +23,6 @@ public class TestGrid {
         capabilities.setBrowserName("chrome");
         capabilities.setPlatform(Platform.MAC);
 
-
             driver = new RemoteWebDriver(new URL(nodeURL), capabilities);
             driver.manage().deleteAllCookies();
             driver.manage().window().maximize();

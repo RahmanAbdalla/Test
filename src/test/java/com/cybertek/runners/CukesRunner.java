@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
           // tags = "@employee and @sunday and not @librarian"
 
 
-            tags = "@regression"
+            tags = "@SmokeTest"
 
 
     )

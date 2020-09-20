@@ -10,7 +10,6 @@ public class EtsySearchPage {
     public EtsySearchPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-
     @FindBy (id = "global-enhancements-search-query")
     public WebElement searchBox;
 
